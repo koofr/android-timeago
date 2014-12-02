@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="time_ago_prefix">pred</string>
+    <string name="time_ago_suffix"></string>
+    
+    <string name="time_ago_seconds">manj kot minuto</string>
+    <string name="time_ago_minute">približno minuto</string>
+    <string name="time_ago_hour">približno uro</string>
+    <string name="time_ago_day">približno dnevom</string>
+    <string name="time_ago_month">približno mesecem</string>
+    <string name="time_ago_year">približno letom</string>
+    
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">%d minutama</item>
+        <item quantity="few">%d minutami</item>
+ 		<item quantity="other">%d minutami</item>
+	</plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d uro</item>
+        <item quantity="two">približno %d urama</item>
+        <item quantity="few">približno %d urami</item>
+        <item quantity="other">približno %d urami</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d dnevom</item>
+        <item quantity="two">%d dnevoma</item>
+        <item quantity="few">%d dnevi</item>
+        <item quantity="other">%d dnevi</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d mesecem</item>
+        <item quantity="two">%d mesecema</item>
+        <item quantity="few">%d meseci</item>
+        <item quantity="other">%d meseci</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d letom</item>
+        <item quantity="two">%d letoma</item>
+        <item quantity="few">%d leti</item>
+        <item quantity="other">%d leti</item>
+    </plurals>        
+
+</resources>

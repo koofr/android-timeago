@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="time_ago_prefix">prije</string>
+    <string name="time_ago_suffix"></string>
+    
+    <string name="time_ago_seconds">manje od minute</string>
+    <string name="time_ago_minute">jedne minute</string>
+    <string name="time_ago_hour">jednog sata</string>
+    <string name="time_ago_day">jednog dana</string>
+    <string name="time_ago_month">jednog mjeseca</string>
+    <string name="time_ago_year">jedne godine</string>
+    
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="other">%d minuta</item>
+	</plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d sata</item>
+        <item quantity="few">%d sata</item>
+        <item quantity="other">%d sati</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d dana</item>
+        <item quantity="few">%d dana</item>
+        <item quantity="other">%d dana</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d mjeseca</item>
+        <item quantity="few">%d mjeseca</item>
+        <item quantity="other">%d mjeseca</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d godine</item>
+        <item quantity="few">%d godine</item>
+        <item quantity="other">%d godina</item>
+    </plurals>        
+
+</resources>
