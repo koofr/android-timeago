@@ -2,4 +2,4 @@ gen
 bin
 .project
 .classpath
-
+.settings
