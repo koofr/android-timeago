@@ -7,7 +7,7 @@ Inspired by [jquery-timeago](https://github.com/rmm5t/jquery-timeago) project.
 
 ## Author
 
-jaKa Močnik ([@jkmcnk])
+jaKa Močnik ([@jkmcnk](http://twitter.com/jkmcnk))
 Luka Zakrajsek ([@bancek](http://twitter.com/bancek))
 
 ## License
