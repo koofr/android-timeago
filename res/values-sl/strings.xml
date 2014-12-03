@@ -14,8 +14,8 @@
         <item quantity="one">%d minuto</item>
         <item quantity="two">%d minutama</item>
         <item quantity="few">%d minutami</item>
- 		<item quantity="other">%d minutami</item>
-	</plurals>
+        <item quantity="other">%d minutami</item>
+    </plurals>
     <plurals name="time_ago_hours">
         <item quantity="one">%d uro</item>
         <item quantity="two">približno %d urama</item>

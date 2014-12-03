@@ -1,39 +1,34 @@
 <resources>
 
     <string name="time_ago_prefix"></string>
-    <string name="time_ago_suffix">ago</string>
+    <string name="time_ago_suffix">in urma</string>
     
-    <string name="time_ago_seconds">less than a minute</string>
-    <string name="time_ago_minute">about a minute</string>
-    <string name="time_ago_hour">about an hour</string>
-    <string name="time_ago_day">a day</string>
-    <string name="time_ago_month">about a month</string>
-    <string name="time_ago_year">about a year</string>
+    <string name="time_ago_seconds">acum citeva secunde</string>
+    <string name="time_ago_minute">acum un minut</string>
+    <string name="time_ago_hour">acum o ora</string>
+    <string name="time_ago_day">o zi</string>
+    <string name="time_ago_month">acum o luna</string>
+    <string name="time_ago_year">acum un an</string>
     
     <plurals name="time_ago_minutes">
-        <item quantity="one">%d minute</item>
-		<item quantity="few">%d minutes</item>
-   		<item quantity="other">%d minutes</item>
-	</plurals>
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
     <plurals name="time_ago_hours">
-        <item quantity="one">%d hour</item>
-		<item quantity="few">%d hours</item>
-        <item quantity="other">about %d hours</item>
+        <item quantity="one">%d o ora</item>
+        <item quantity="other">acum %d ore</item>
     </plurals>
     <plurals name="time_ago_days">
-        <item quantity="one">%d day</item>
-		<item quantity="few">%d days</item>
-        <item quantity="other">%d days</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="other">%d zile</item>
     </plurals>
     <plurals name="time_ago_months">
-        <item quantity="one">%d month</item>
-		<item quantity="few">%d months</item>
-        <item quantity="other">%d months</item>
+        <item quantity="one">%d luna</item>
+        <item quantity="other">%d luni</item>
     </plurals>
     <plurals name="time_ago_years">
-        <item quantity="one">%d year</item>
-		<item quantity="few">%d years</item>
-        <item quantity="other">%d years</item>
-    </plurals>        
+        <item quantity="one">%d an</item>
+        <item quantity="other">%d ani</item>
+    </plurals>
 
 </resources>

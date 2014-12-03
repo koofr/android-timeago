@@ -14,7 +14,7 @@
         <item quantity="one">%d minute</item>
         <item quantity="few">%d minute</item>
         <item quantity="other">%d minuta</item>
-	</plurals>
+    </plurals>
     <plurals name="time_ago_hours">
         <item quantity="one">%d sata</item>
         <item quantity="few">%d sata</item>
