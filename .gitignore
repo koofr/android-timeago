@@ -3,3 +3,8 @@ bin
 .project
 .classpath
 .settings
+*.iml
+.gradle
+.idea
+local.properties
+build
