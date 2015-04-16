@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 8
         targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        versionCode 101
+        versionName "1.0.1"
     }
 
     buildTypes {
@@ -20,7 +20,7 @@ android {
 def siteUrl = 'https://github.com/koofr/android-timeago'
 def gitUrl = 'https://github.com/koofr/android-timeago.git'
 group = "net.koofr"
-version = "1.0.0"
+version = "1.0.1"
 
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
