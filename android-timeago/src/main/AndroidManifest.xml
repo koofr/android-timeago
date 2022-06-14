@@ -1,8 +1,2 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.koofr.android.timeago"
-    android:versionCode="1"
-    android:versionName="1.0.0" >
-
-    <uses-sdk android:minSdkVersion="1" />
-
-</manifest>
+    package="net.koofr.android.timeago"/>

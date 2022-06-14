@@ -1,98 +1,79 @@
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
+version = "1.0.4"
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 21
-        versionCode 101
-        versionName "1.0.1"
+        targetSdkVersion 31
+        versionCode 104
+        versionName version
     }
 
     buildTypes {
     }
 }
 
-def siteUrl = 'https://github.com/koofr/android-timeago'
-def gitUrl = 'https://github.com/koofr/android-timeago.git'
-group = "net.koofr"
-version = "1.0.1"
+Properties local = new Properties()
+local.load(project.rootProject.file("local.properties").newDataInputStream())
 
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
-
-bintray {
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
-
-    configurations = ['archives']
-    pkg {
-        repo = "maven"
-        name = "android-timeago"
-        websiteUrl = siteUrl
-        vcsUrl = gitUrl
-        licenses = ["Apache-2.0"]
-        publish = true
-    }
+task sourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
 }
 
-install {
-    repositories.mavenInstaller {
-        pom {
-            project {
-                packaging 'aar'
-                name 'A library for formatting time passed since an event. '
-                url siteUrl
+publishing {
+    repositories {
+        maven {
+            name = 'koofr'
+            url = local.getProperty('repo.url')
+            credentials {
+                username = local.getProperty('repo.user')
+                password = local.getProperty('repo.key')
+            }
+        }
+    }
+    publications {
+        koofr(MavenPublication) {
+            groupId = 'net.koofr'
+            artifact(sourceJar)
+            artifact("$buildDir/outputs/aar/android-timeago-release.aar")
+            pom {
+                name = 'android-timeago'
+                description = 'A Java library for formatting ages'
+                url = 'https://github.com/koofr/android-timeago'
                 licenses {
                     license {
-                        name 'The Apache Software License, Version 2.0'
-                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        name = 'Apache  License 2.0'
+                        url = 'https://github.com/koofr/android-timeago/blob/master/LICENSE'
                     }
                 }
                 developers {
                     developer {
-                        id 'jkmcnk'
-                        name 'jaKa Močnik'
-                        email 'jaka@koofr.net'
+                        id = 'jkmcnk'
+                        name = 'Jaka Močnik'
+                        email = 'jaka@koofr.net'
                     }
-                 }
-                 scm {
-                     connection gitUrl
-                     developerConnection gitUrl
-                     url siteUrl
-                 }
+                    developer {
+                        id = 'bancek'
+                        name = 'Luka Zakrajšek'
+                        email = 'luka@koofr.net'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:https://github.com/koofr/android-timeago.git'
+                    developerConnection = 'scm:git:https://github.com/koofr/android-timeago.git'
+                    url = 'https://github.com/koofr/android-timeago'
+                }
             }
         }
     }
 }
 
 dependencies {
-}
-
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-
-artifacts {
-    archives javadocJar
-    archives sourcesJar
-}
-
-task findConventions << {
-    println project.getConvention()
 }

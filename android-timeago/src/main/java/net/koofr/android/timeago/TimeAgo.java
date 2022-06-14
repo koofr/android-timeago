@@ -2,6 +2,7 @@ package net.koofr.android.timeago;
 
 import java.util.Date;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Resources;
 
@@ -17,6 +18,7 @@ public class TimeAgo {
 		return timeAgo(date.getTime());
 	}
 
+	@SuppressLint("StringFormatInvalid")
 	public String timeAgo(long millis) {
 		long diff = new Date().getTime() - millis;
 

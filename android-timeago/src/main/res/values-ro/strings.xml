@@ -12,22 +12,27 @@
     
     <plurals name="time_ago_minutes">
         <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
         <item quantity="other">%d minute</item>
     </plurals>
     <plurals name="time_ago_hours">
         <item quantity="one">%d o ora</item>
+        <item quantity="few">acum %d ore</item>
         <item quantity="other">acum %d ore</item>
     </plurals>
     <plurals name="time_ago_days">
         <item quantity="one">%d zi</item>
+        <item quantity="few">%d zile</item>
         <item quantity="other">%d zile</item>
     </plurals>
     <plurals name="time_ago_months">
         <item quantity="one">%d luna</item>
+        <item quantity="few">%d luni</item>
         <item quantity="other">%d luni</item>
     </plurals>
     <plurals name="time_ago_years">
         <item quantity="one">%d an</item>
+        <item quantity="few">%d ani</item>
         <item quantity="other">%d ani</item>
     </plurals>
 
