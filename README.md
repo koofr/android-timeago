@@ -24,7 +24,7 @@ And declare your dependency with
 
 ```
 dependencies {
-    implementation 'net.koofr:android-timeago:1.0.4'
+    implementation 'net.koofr:android-timeago:1.0.6'
 }
 ```
 

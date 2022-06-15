@@ -16,7 +16,7 @@
     </plurals>
     <plurals name="time_ago_hours">
         <item quantity="one">%d hour</item>
-        <item quantity="other">about %d hours</item>
+        <item quantity="other">%d hours</item>
     </plurals>
     <plurals name="time_ago_days">
         <item quantity="one">%d day</item>
