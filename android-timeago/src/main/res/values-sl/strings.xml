@@ -1,5 +1,4 @@
 <resources>
-
     <string name="time_ago_prefix">pred</string>
     <string name="time_ago_suffix"></string>
     
@@ -39,6 +38,5 @@
         <item quantity="two">%d letoma</item>
         <item quantity="few">%d leti</item>
         <item quantity="other">%d leti</item>
-    </plurals>        
-
+    </plurals>
 </resources>

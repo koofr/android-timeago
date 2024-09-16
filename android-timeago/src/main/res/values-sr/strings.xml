@@ -1,5 +1,4 @@
 <resources>
-
     <string name="time_ago_prefix">pre</string>
     <string name="time_ago_suffix"></string>
     
@@ -34,6 +33,5 @@
         <item quantity="one">%d godine</item>
         <item quantity="few">%d godine</item>
         <item quantity="other">%d godina</item>
-    </plurals>        
-
+    </plurals>
 </resources>

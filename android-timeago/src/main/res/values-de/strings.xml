@@ -1,0 +1,30 @@
+<resources>
+    <string name="time_ago_prefix">Vor</string>
+    <string name="time_ago_suffix"/>
+    <string name="time_ago_seconds">weniger als einer minute</string>
+    <string name="time_ago_minute">etwa eine minute</string>
+    <string name="time_ago_hour">etwa eine stunde</string>
+    <string name="time_ago_day">ein tag</string>
+    <string name="time_ago_month">etwa ein monat</string>
+    <string name="time_ago_year">etwa ein jahr</string>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minuten</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d stunde</item>
+        <item quantity="other">%d stunden</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d tag</item>
+        <item quantity="other">%d tagen</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d monat</item>
+        <item quantity="other">%d monaten</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d jahr</item>
+        <item quantity="other">%d jahren</item>
+    </plurals>
+</resources>

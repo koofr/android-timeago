@@ -1,0 +1,37 @@
+<resources>
+    <string name="time_ago_prefix">il y a</string>
+    <string name="time_ago_suffix"/>
+
+    <string name="time_ago_seconds">moins d\'une minute</string>
+    <string name="time_ago_minute">environ une minute</string>
+    <string name="time_ago_hour">environ une heure</string>
+    <string name="time_ago_day">un jour</string>
+    <string name="time_ago_month">environ un mois</string>
+    <string name="time_ago_year">environ un an</string>
+
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d heure</item>
+        <item quantity="many">%d heures</item>
+        <item quantity="other">%d heures</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d jour</item>
+        <item quantity="many">%d jours</item>
+        <item quantity="other">%d jours</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d mois</item>
+        <item quantity="many">%d mois</item>
+        <item quantity="other">%d mois</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d année</item>
+        <item quantity="many">%d années</item>
+        <item quantity="other">%d années</item>
+    </plurals>
+</resources>

@@ -1,5 +1,4 @@
 <resources>
-
     <string name="time_ago_prefix"></string>
     <string name="time_ago_suffix">in urma</string>
     
@@ -35,5 +34,4 @@
         <item quantity="few">%d ani</item>
         <item quantity="other">%d ani</item>
     </plurals>
-
 </resources>

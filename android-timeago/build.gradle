@@ -3,28 +3,31 @@ plugins {
     id 'maven-publish'
 }
 
-version = "1.0.6"
+version = "1.0.7"
 
 android {
-    compileSdkVersion 31
+    namespace = "net.koofr.android.timeago"
+
+    compileSdkVersion = 34
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 31
-        versionCode 106
+        targetSdkVersion 34
+        versionCode 107
         versionName version
     }
 
     buildTypes {
     }
+
 }
 
 Properties local = new Properties()
 local.load(project.rootProject.file("local.properties").newDataInputStream())
 
-task sourceJar(type: Jar) {
+tasks.register("sourceJar", Jar) {
+    archiveClassifier = "sources"
     from android.sourceSets.main.java.srcDirs
-    classifier "sources"
 }
 
 publishing {
