@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">前</string>
+    <string name="time_ago_seconds">不到一分钟</string>
+    <string name="time_ago_minute">大约 1 分钟</string>
+    <string name="time_ago_hour">大约 1 小时</string>
+    <string name="time_ago_day">一天</string>
+    <string name="time_ago_month">大约 1 个月</string>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">%d 个月</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">%d 年</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <string name="time_ago_year">大约 1 年</string>
+</resources>

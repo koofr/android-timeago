@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">önce</string>
+    <string name="time_ago_seconds">bir dakikadan daha az</string>
+    <string name="time_ago_minute">bir dakika kadar</string>
+    <string name="time_ago_hour">bir saat kadar</string>
+    <string name="time_ago_day">bir gün</string>
+    <string name="time_ago_month">bir ay kadar</string>
+    <string name="time_ago_year">bir yıl kadar</string>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d ay</item>
+        <item quantity="other">%d ay</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d yıl</item>
+        <item quantity="other">%d yıl</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d gün</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d dakika</item>
+        <item quantity="other">%d dakika</item>
+    </plurals>
+</resources>

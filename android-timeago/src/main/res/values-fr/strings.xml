@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="time_ago_prefix">il y a</string>
-    <string name="time_ago_suffix"/>
-
+    <string name="time_ago_suffix"></string>
     <string name="time_ago_seconds">moins d\'une minute</string>
     <string name="time_ago_minute">environ une minute</string>
     <string name="time_ago_hour">environ une heure</string>
     <string name="time_ago_day">un jour</string>
     <string name="time_ago_month">environ un mois</string>
     <string name="time_ago_year">environ un an</string>
-
     <plurals name="time_ago_minutes">
         <item quantity="one">%d minute</item>
         <item quantity="many">%d minutes</item>

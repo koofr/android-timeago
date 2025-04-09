@@ -2,14 +2,12 @@
 <resources>
     <string name="time_ago_prefix">hace</string>
     <string name="time_ago_suffix"></string>
-
     <string name="time_ago_seconds">menos de un minuto</string>
     <string name="time_ago_minute">un minuto</string>
     <string name="time_ago_hour">una hora</string>
     <string name="time_ago_day">un día</string>
     <string name="time_ago_month">un mes</string>
     <string name="time_ago_year">un año</string>
-
     <plurals name="time_ago_minutes">
         <item quantity="one">un minuto</item>
         <item quantity="other">%d minutos</item>

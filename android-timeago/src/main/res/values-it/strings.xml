@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">fa</string>
+    <string name="time_ago_seconds">Meno di un minuto</string>
+    <string name="time_ago_minute">circa un minuto</string>
+    <string name="time_ago_hour">circa un\'ora</string>
+    <string name="time_ago_day">un giorno</string>
+    <string name="time_ago_month">circa un mese</string>
+    <string name="time_ago_year">circa un anno</string>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="many">%d minuti</item>
+        <item quantity="other">%d minuti</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d ora</item>
+        <item quantity="many">%d ore</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d giorno</item>
+        <item quantity="many">%d giorni</item>
+        <item quantity="other">%d giorni</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d mese</item>
+        <item quantity="many">%d mesi</item>
+        <item quantity="other">%d mesi</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d anno</item>
+        <item quantity="many">%d anni</item>
+        <item quantity="other">%d anni</item>
+    </plurals>
+</resources>

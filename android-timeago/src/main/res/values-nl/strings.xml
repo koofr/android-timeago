@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="time_ago_prefix"/>
+    <string name="time_ago_prefix"></string>
     <string name="time_ago_suffix">geleden</string>
-
     <string name="time_ago_seconds">Minder dan een minuut</string>
     <string name="time_ago_minute">Ongeveer een minuut</string>
     <string name="time_ago_hour">Ongeveer een uur</string>
     <string name="time_ago_day">Een dag</string>
     <string name="time_ago_month">Ongeveer een maand</string>
     <string name="time_ago_year">Ongeveer een jaar</string>
-
     <plurals name="time_ago_minutes">
         <item quantity="one">%d minuut</item>
         <item quantity="other">%d minuten</item>

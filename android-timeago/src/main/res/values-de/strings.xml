@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="time_ago_prefix">Vor</string>
-    <string name="time_ago_suffix"/>
+    <string name="time_ago_suffix"></string>
     <string name="time_ago_seconds">weniger als einer minute</string>
     <string name="time_ago_minute">etwa eine minute</string>
     <string name="time_ago_hour">etwa eine stunde</string>

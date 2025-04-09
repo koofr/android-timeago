@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="time_ago_prefix"></string>
     <string name="time_ago_suffix">in urma</string>
-    
     <string name="time_ago_seconds">acum citeva secunde</string>
     <string name="time_ago_minute">acum un minut</string>
     <string name="time_ago_hour">acum o ora</string>
     <string name="time_ago_day">o zi</string>
     <string name="time_ago_month">acum o luna</string>
     <string name="time_ago_year">acum un an</string>
-    
     <plurals name="time_ago_minutes">
         <item quantity="one">%d minut</item>
         <item quantity="few">%d minute</item>

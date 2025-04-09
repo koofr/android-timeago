@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="time_ago_prefix"></string>
     <string name="time_ago_suffix">atrás</string>
-
     <string name="time_ago_seconds">há menos de um minuto</string>
     <string name="time_ago_minute">há cerca de um minuto</string>
     <string name="time_ago_hour">há cerca de uma hora</string>
     <string name="time_ago_day">há um dia</string>
     <string name="time_ago_month">há cerca de um mês</string>
     <string name="time_ago_year">há cerca de um ano</string>
-
     <plurals name="time_ago_minutes">
         <item quantity="one">%d minuto</item>
         <item quantity="many">%d minutos</item>
