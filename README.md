@@ -30,8 +30,10 @@ dependencies {
 
 ## Authors
 
-jaKa Močnik ([@jkmcnk](http://twitter.com/jkmcnk))
-Luka Zakrajsek ([@bancek](http://twitter.com/bancek))
+jaKa Močnik
+
+Luka Zakrajsek
+
 
 ## License
 
