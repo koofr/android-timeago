@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_ago_prefix">преди</string>
+    <string name="time_ago_suffix"></string>
+    <string name="time_ago_minute">около минута</string>
+    <string name="time_ago_hour">около час</string>
+    <string name="time_ago_day">един ден</string>
+    <string name="time_ago_month">около месец</string>
+    <string name="time_ago_year">около година</string>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="other">%d минути</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d час</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d месец</item>
+        <item quantity="other">%d месеца</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d година</item>
+        <item quantity="other">%d години</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d ден</item>
+        <item quantity="other">%d дни</item>
+    </plurals>
+    <string name="time_ago_seconds">по-малко от минута</string>
+</resources>

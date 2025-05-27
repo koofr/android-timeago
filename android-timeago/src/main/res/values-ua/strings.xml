@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+        <item quantity="other">%d хвилин</item>
+    </plurals>
+    <string name="time_ago_minute">близько хвилини</string>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">тому</string>
+    <string name="time_ago_seconds">менше хвилини</string>
+    <string name="time_ago_hour">близько години</string>
+    <string name="time_ago_day">день</string>
+    <string name="time_ago_month">близько місяця</string>
+    <string name="time_ago_year">близько року</string>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+        <item quantity="other">%d годин</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дні</item>
+        <item quantity="many">%d днів</item>
+        <item quantity="other">%d днів</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d місяць</item>
+        <item quantity="few">%d місяці</item>
+        <item quantity="many">%d місяців</item>
+        <item quantity="other">%d місяців</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d рік</item>
+        <item quantity="few">%d роки</item>
+        <item quantity="many">%d років</item>
+        <item quantity="other">%d років</item>
+    </plurals>
+</resources>

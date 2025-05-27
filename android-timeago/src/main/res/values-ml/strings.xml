@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">മുമ്പ്</string>
+    <string name="time_ago_seconds">ഒരു മിനിറ്റിൽ താഴെ</string>
+    <string name="time_ago_month">ഏകദേശം ഒരു മാസം</string>
+    <string name="time_ago_minute">ഏകദേശം ഒരു മിനിറ്റ്</string>
+    <string name="time_ago_hour">ഏകദേശം ഒരു മണിക്കൂർ</string>
+    <string name="time_ago_day">ഒരു ദിവസം</string>
+    <string name="time_ago_year">ഏകദേശം ഒരു വർഷം</string>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d മണിക്കൂർ</item>
+        <item quantity="other">%d മണിക്കൂറുകൾ</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d മിനിറ്റ്</item>
+        <item quantity="other">%d മിനിറ്റുകൾ</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d ദിവസം</item>
+        <item quantity="other">%d ദിവസങ്ങൾ</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d മാസം</item>
+        <item quantity="other">%d മാസങ്ങൾ</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d വർഷം</item>
+        <item quantity="other">%d വർഷങ്ങൾ</item>
+    </plurals>
+</resources>
