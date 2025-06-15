@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">전</string>
+    
+    <string name="time_ago_seconds">바로</string>
+    <string name="time_ago_minute">일분</string>
+    <string name="time_ago_hour">한 시간</string>
+    <string name="time_ago_day">하루</string>
+    <string name="time_ago_month">한달</string>
+    <string name="time_ago_year">일년</string>
+    
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d 분</item>
+        <item quantity="other">%d 분</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d 시간</item>
+        <item quantity="other">%d 시간</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d 일</item>
+        <item quantity="other">%d 일</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d 달</item>
+        <item quantity="other">%d 달</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d 년</item>
+        <item quantity="other">%d 년</item>
+    </plurals>        
+
+</resources>
