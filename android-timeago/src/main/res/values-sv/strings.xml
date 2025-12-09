@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_ago_seconds">mindre än en minut</string>
+    <string name="time_ago_minute">ungefär en minut</string>
+    <string name="time_ago_hour">ungefär en timme</string>
+    <string name="time_ago_day">en dag</string>
+    <string name="time_ago_month">ungefär en månad</string>
+    <string name="time_ago_year">ungefär ett år</string>
+    <plurals name="time_ago_minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minuter</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="one">%d timme</item>
+        <item quantity="other">%d timmar</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dagar</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="one">%d månad</item>
+        <item quantity="other">%d månader</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="one">%d år</item>
+        <item quantity="other">%d år</item>
+    </plurals>
+    <string name="time_ago_suffix">sedan</string>
+    <string name="time_ago_prefix">före</string>
+</resources>

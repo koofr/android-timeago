@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-version = "1.0.12"
+version = "1.0.14"
 
 android {
     namespace = "net.koofr.android.timeago"
@@ -13,7 +13,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 36
-        versionCode 10012
+        versionCode 10014
         versionName version
     }
 
