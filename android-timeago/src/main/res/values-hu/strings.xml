@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix"></string>
     <string name="time_ago_minute">körülbelül egy perce</string>
     <string name="time_ago_hour">körülbelül egy órája</string>
     <string name="time_ago_day">egy napja</string>
